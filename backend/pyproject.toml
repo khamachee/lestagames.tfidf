@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery>=5.5.0",
+    "debugpy>=1.8.13",
+    "django>=5.1.7",
+    "django-cors-headers>=4.7.0",
+    "djangorestframework>=3.16.0",
+    "gunicorn>=23.0.0",
+    "redis>=5.2.1",
+    "scikit-learn>=1.6.1",
+]

@@ -1,0 +1,6 @@
+FROM python
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+WORKDIR /app
+COPY pyproject.toml .
+RUN pip install .
